@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>roll_dice</title>
+</head>
+<body>
+    <div id="winner">
+       <h1 id="win">Winner</h1>
+    </div>
+  <div class="container">
+      <div class="dice">
+          <img src="dice2.png" class="abb" id="die-1">
+          <div class="inner"><p>Member A</p></div>
+          <div class="inner" id="member1"><p id="score1">Score</p></div>
+          
+      </div>
+      <div class="dice">
+        <img src="dice2.png" class="abb" id="die-2">
+        <div class="inner"><p>Member B</p></div>
+        <div class="inner" id="member2"><p id="score2">Score</p></div>
+      </div>
+      <div class="dice">
+        <img src="dice3.png" class="abb" id="die-3">
+        <div class="inner"><p>Member C</p></div>
+        <div class="inner" id="member3"><p id="score3">Score</p></div>
+      </div>
+  </div>
+  <button onclick="roll()">ROLL THE DICE</button>
+
+
+   <script src="index.js"></script>
+</body>
+</html>
